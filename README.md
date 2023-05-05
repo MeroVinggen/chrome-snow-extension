@@ -1,4 +1,4 @@
-
+<img src='github poster.jpg'>
 
 Chrome extension build to add falling snow to open pages
 

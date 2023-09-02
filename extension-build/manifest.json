@@ -1,7 +1,7 @@
 {
   "name": "Snow",
   "description": "Get some snow in your browser with a small customization",
-  "version": "1.14.7",
+  "version": "1.14.8",
   "manifest_version": 3,
   "background": {
     "service_worker": "./scripts/serviceWorker/chromeStorageInitialization.js"

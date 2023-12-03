@@ -4,7 +4,7 @@
 
 ### Preview
 
-<img width="49%" src="preview1.gif" alt="preview 1"> <img width="49%" src="preview2.gif" alt="preview 2">
+<img width="49%" src="preview 1 x_12412322.gif" alt="preview 1"> <img width="49%" src="preview 2 x_98888282" alt="preview 2">
 
 Available via link:
 [Chrome Web Store page](https://chromewebstore.google.com/detail/snow/jhkicjpoijacjpgehbodajiighgpaila)

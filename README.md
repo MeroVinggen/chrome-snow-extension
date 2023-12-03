@@ -7,4 +7,4 @@
 <img width="49%" src="preview1.gif" alt="preview 1"> <img width="49%" src="preview2.gif" alt="preview 2">
 
 Available via link:
-<a href="[https://chrome.google.com/webstore/detail/snow/jhkicjpoijacjpgehbodajiighgpaila/](https://chromewebstore.google.com/detail/snow/jhkicjpoijacjpgehbodajiighgpaila)https://chromewebstore.google.com/detail/snow/jhkicjpoijacjpgehbodajiighgpaila"> Chrome Web Store page </a>
+[Chrome Web Store page](https://chromewebstore.google.com/detail/snow/jhkicjpoijacjpgehbodajiighgpaila)

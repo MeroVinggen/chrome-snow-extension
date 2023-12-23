@@ -1,19 +1,28 @@
 "use strict";
 
+/**
+ * copy from initValues.js
+ */
 const initValues = {
-	enable: true,
-	count: 100,
-	color: "#000000",
-	onTop: true,
-	dynamicColor: "static",
+  snowfallEnable: true,
+  snowfallCount: 100,
+  snowfallColor: "#cd4c4c",
+  snowfallZtop: true,
+  snowfallColorMode: "static",
+  snowfallMelting: true,
+  snowfallDirectionMode: "dynamic",
+  snowfallDirectionStaticAngle: 0,
 };
 
 chrome.runtime.onInstalled.addListener(({ reason }) => {
-  if (reason === chrome.runtime.OnInstalledReason.INSTALL) {
-    chrome.storage.local.set({ 'snowfallColor': initValues.color });
-    chrome.storage.local.set({ 'snowfallEnable': initValues.enable });
-    chrome.storage.local.set({ 'snowfallCount': initValues.count });
-    chrome.storage.local.set({ 'snowfallZtop': initValues.onTop });
-    chrome.storage.local.set({ 'snowfallColorMode': initValues.dynamicColor });
-  }
+  if (reason !== chrome.runtime.OnInstalledReason.INSTALL) { return; }
+
+  chrome.storage.local.set({ 'snowfallColor': initValues.snowfallColor });
+  chrome.storage.local.set({ 'snowfallEnable': initValues.snowfallEnable });
+  chrome.storage.local.set({ 'snowfallCount': initValues.snowfallCount });
+  chrome.storage.local.set({ 'snowfallZtop': initValues.snowfallZtop });
+  chrome.storage.local.set({ 'snowfallColorMode': initValues.snowfallColorMode });
+  chrome.storage.local.set({ 'snowfallMelting': initValues.snowfallMelting });
+  chrome.storage.local.set({ 'snowfallDirectionMode': initValues.snowfallDirectionMode });
+  chrome.storage.local.set({ 'snowfallDirectionStaticAngle': initValues.snowfallDirectionStaticAngle });
 });
